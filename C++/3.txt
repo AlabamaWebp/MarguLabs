@@ -1,0 +1,14 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    int x;
+    cout << "Input rebro: ";
+    cin >> x;
+    cout << "Volume: " << pow(x,3) << endl;
+    cout << "Total area: " << 6 * pow(x,2) << endl;
+    
+    return 0;
+}

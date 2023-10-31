@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x;
+    cout << "Input chislo: ";
+    cin >> x;
+    cout << endl;
+    for (int i = 1; i < 4; i++) {
+        cout << x + i << endl;
+    }
+    return 0;
+}

@@ -1,0 +1,17 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+void vvod(string str, string &i){
+    cout << str;
+    cin >> i;
+}
+int main()
+{
+    string x;
+    vvod("input 4znachnoe chislo: ", x);
+    cout << "Digit in thousands: " << x[0] << endl;
+    cout << "Digit in hundreds: " << x[1] << endl;
+    cout << "Digit in tens: " << x[2] << endl;
+    cout << "Digit in ones: " << x[3] << endl;
+    return 0;
+}

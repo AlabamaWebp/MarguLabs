@@ -1,0 +1,17 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+void vvod(string str, int &i){
+    cout << str;
+    cin >> i;
+}
+int main()
+{
+    int x, y;
+    vvod("input first: ", x);
+    vvod("input second: ", y);
+    cout << x << " + " << y << " = " << x + y << endl;
+    cout << x << " - " << y << " = " << x - y << endl;
+    cout << x << " * " << y << " = " << x * y << endl;
+    return 0;
+}
