@@ -1,0 +1,35 @@
+.product {
+    padding: 15px;
+    background-color: #DBE2EF;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    border-radius: 25px;
+    height: 450px;
+    cursor: pointer;
+    color: black;
+}
+.product_img {
+    border-radius: 25px;
+}
+.row {
+    width: 100%;
+    margin: 5px;
+    /* text-align: center; */
+}
+.product_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.name {
+    font-size: 24px;
+}
+.price {
+    font-weight: normal;
+}
+.factory {
+    font-size: 18px;
+}

@@ -1,0 +1,34 @@
+/*  main #3F72AF
+    second #DBE2EF
+    theird #F9F7F7
+    text white
+*/
+body {
+    background-color: #F9F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    padding: 20px 40px;
+    background-color: #3F72AF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 5px;
+}
+.name {
+    margin: 0;
+}
+.button1 {
+    margin: 10px 10px 0;
+}
+.horizontal {
+    flex-direction: row;
+}
