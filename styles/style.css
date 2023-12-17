@@ -28,36 +28,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
-  background-color: #3F72AF;
-}
-.logo {
-  padding: 5px 50px;
-  border-radius: 25px;
-  background-color: white;
-}
-.logo_text {
-  color: #3F72AF;
-  /* color: white; */
-  margin: 0;
-  padding: 0;
-}
-.button1 {
-  /* border: 2px solid #f64c71; */
-  background-color: white;
-  color: #3F72AF ;
-  font-weight: bold;
-  border-radius: 10px;
-  padding: 5px 10px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-  display: block;
-}
-.button1.actient {
-  background-color: #3F72AF;
-  color: white ;
-}
-.button1:hover {
-  transform: scale(1.1);
+  /* background-color: #3F72AF; */
 }
 .white {
   color: white;
@@ -73,15 +44,6 @@ body {
   display: flex;
   padding: 20px;
 }
-.footer {
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #3F72AF;
-  color: white;
-  padding: 10px 0;
-}
 .right {
   display: flex;
 }
@@ -93,6 +55,23 @@ body {
   transition: .1s;
   top: 0;
 }
-.ref.anim:hover {
+/* .ref.anim:hover {
   top: -2px;
+} */
+.ref:after {
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #6b410a; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+.ref.b:after {
+  background-color: black;
+}
+.ref:hover:after,
+.ref:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
 }
