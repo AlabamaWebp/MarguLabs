@@ -3,6 +3,9 @@
     theird #F9F7F7
     text white
 */
+/* 
+#6b410a
+ */
 body {
     background-color: #F9F7F7;
     display: flex;
@@ -11,8 +14,8 @@ body {
 }
 .login {
     padding: 20px 40px;
-    background-color: #3F72AF;
-    color: white;
+    border: 1px solid #6b410a;
+    color: #6b410a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,8 +29,11 @@ body {
 .name {
     margin: 0;
 }
-.button1 {
+.ref {
     margin: 10px 10px 0;
+    border: 1px solid #6b410a;
+    padding: 2px 10px;
+    cursor: pointer;
 }
 .horizontal {
     flex-direction: row;
