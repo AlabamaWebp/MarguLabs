@@ -1,8 +1,3 @@
-/*  main #3F72AF
-    second #DBE2EF
-    theird #F9F7F7
-    text white
-*/
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@500&family=Zilla+Slab:ital,wght@1,300&display=swap');
 * {
   box-sizing: border-box;
@@ -18,7 +13,6 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  /* background-color: #563d67; */
 }
 
 .header {
@@ -28,7 +22,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
-  /* background-color: #3F72AF; */
 }
 .white {
   color: white;
@@ -55,9 +48,7 @@ body {
   transition: .1s;
   top: 0;
 }
-/* .ref.anim:hover {
-  top: -2px;
-} */
+
 .ref:after {
 	display: block;
 	position: absolute;

@@ -5,7 +5,6 @@
     height: auto;
 }
 .decor {
-    /* font-size: 16px; */
     font-style: italic;
     color: gray;
 }
@@ -18,9 +17,6 @@
     font-size: 16px;
     transition: .2s;
 }
-/* .header>.ref:hover {
-    text-decoration: underline;
-} */
 .image_cont {
     height: 230px;
     width: 230px;
